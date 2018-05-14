@@ -73,9 +73,6 @@ If you have found a bug or if you have a feature request, please report them at 
 
 [Auth0](https://auth0.com)
 
-## License
-
-This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.
 ## What is Auth0?
 
 Auth0 helps you to:
