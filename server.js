@@ -14,17 +14,15 @@ var generate=require("./token/generateToken");
 app.post("/login",function(req,res){
     var uname=req.body.uname;
     var upwd=req.body.upwd;
-if (uname=="admin" && upwd=="admin"){
+if (uname =="admin" && upwd =="admin"){
     var token=generate(
         uname,
         upwd,
         'hr@github.com'
     );
-    res.send({
-        'login':success,'token':token
-    })
-}else{res.send({'login':fail});
-
+    res.send({'login':success,'token':token});
+    }else{res.send({'login':fail});
+    
     }
 });
     app.listen(8080);
