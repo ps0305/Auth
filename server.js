@@ -20,7 +20,7 @@ if (uname =="admin" && upwd =="admin"){
         upwd,
         'hr@github.com'
     );
-    res.send({'login':success,'token':token});
+    res.send({'login':'success','token':token});
     }else{res.send({'login':fail});
     
     }
