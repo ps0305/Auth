@@ -1,3 +1,6 @@
+
+![artimgexk5hy_buildnodejsjwt](https://user-images.githubusercontent.com/34129569/41152538-867a4484-6b31-11e8-9508-d4809686f0f0.jpg)
+
 # NodeJS JWT Authentication sample
 
 This is a NodeJS API that supports username and password authentication with JWTs
